@@ -6,11 +6,11 @@ Cada projeto fica em uma pasta própria e roda direto no navegador, sem instala�
 
 ## Projetos
 
-| Pasta | Projeto | O que pratica |
-| ----- | ------- | ------------- |
-| [CP1](CP1/) | Calculadora de Compras | Inputs, leitura de valores no DOM, cálculo do total (preço × quantidade) e exibição do resultado |
-| [CP2](CP2/) | Placar de Pontos | Eventos de clique, variável de estado, atualização do texto na tela e regra para não passar de zero |
-| [CP3](CP3/) | Loja de Produtos | Troca de imagem e de texto alternativo (`src` / `alt`) com `getAttribute` e `setAttribute` |
+| Pasta       | Projeto                | O que pratica                                                                                       |
+| ----------- | ---------------------- | --------------------------------------------------------------------------------------------------- |
+| [CP1](CP1/) | Calculadora de Compras | Inputs, leitura de valores no DOM, cálculo do total (preço × quantidade) e exibição do resultado    |
+| [CP2](CP2/) | Placar de Pontos       | Eventos de clique, variável de estado, atualização do texto na tela e regra para não passar de zero |
+| [CP3](CP3/) | Loja de Produtos       | Troca de imagem e de texto alternativo (`src` / `alt`) com `getAttribute` e `setAttribute`          |
 
 ## Estilo
 
@@ -26,7 +26,7 @@ Os três projetos usam a mesma identidade visual:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/<seu-usuario>/Cps-WebDev.git
+   git clone https://github.com/<Gabriel-W-almeida>/Cps-WebDev.git
    ```
 2. Abra o `index.html` da pasta do projeto desejado no navegador.
 
