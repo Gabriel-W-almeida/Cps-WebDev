@@ -1,31 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cp1</title>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Compras - Checkpoint 1</title>
+    <link rel="stylesheet" href="Style.css" />
     <script src="Scripts.js" defer></script>
-    <link rel="stylesheet" href="Style.css">
-</head>
-<body>
-    
-<h1>Calculadora de Pedidos</h1>
-    <div>
-        <p>Preço: </p>
-        <input type="number"  id="preco" placeholder="Digite o preco do Produto">
-        <p>Quantidade: </p>
-        <input type="number" id="quantidade" placeholder="Digite a quantidade" >
-    </div>
-    <div>
-        <button onclick="calcular()" id="calcular">calcular</button>
-    </div>
+  </head>
+  <body>
+    <main>
+      <h1>Calculadora de Compras</h1>
+      <p>Digite o preço unitário e a quantidade para calcular o valor total.</p>
 
+      <label for="preco">Preço Unitário</label>
+      <input type="number" id="preco" placeholder="Ex: 15.00" />
 
+      <label for="quantidade">Quantidade</label>
+      <input type="number" id="quantidade" placeholder="Ex: 3" />
 
-
-
-</div>
-
-    
-</body>
+      <button onclick="calcular()" id="calcular">Calcular</button>
+      <p id="resultado"></p>
+    </main>
+  </body>
 </html>

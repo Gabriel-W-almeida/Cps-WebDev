@@ -1,0 +1,87 @@
+:root {
+  --azul-escuro: #0b1d3a;
+  --azul-medio: #1d3b6e;
+  --azul-claro: #3d6bb3;
+  --bege: #f5ecd7;
+  --bege-escuro: #e3d5b4;
+  --dourado: #c9a227;
+  --texto: #1a2438;
+  --vermelho: #a8434a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--azul-escuro);
+  color: var(--texto);
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  text-align: center;
+  padding: 16px;
+}
+
+main {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background: var(--bege);
+  padding: 32px 28px;
+  border-radius: 16px;
+  border-top: 6px solid var(--dourado);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+}
+
+h1 {
+  color: var(--azul-medio);
+  font-size: 1.7rem;
+}
+
+#pontuacao {
+  font-size: 8rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--azul-escuro);
+  padding: 8px 0;
+}
+
+button {
+  width: 100%;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  color: var(--bege);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+button:first-of-type {
+  background: var(--azul-medio);
+}
+
+button:first-of-type:hover {
+  background: var(--azul-claro);
+}
+
+button:last-of-type {
+  background: var(--vermelho);
+}
+
+button:last-of-type:hover {
+  background: #c25a62;
+}
+
+button:active {
+  transform: scale(0.97);
+}
